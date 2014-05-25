@@ -1,0 +1,10 @@
+﻿*** exadel-flamingo-2.2.0.zip ***
+官方原版，来自 http://www.exadel.com/web/portal/flamingo 。
+它使用LGPL 3.0开源协议发布。
+
+*** exadel-flamingo-2.2.0_fix.zip ***
+安装脚本经过修正的版本。
+我把bin目录下android-flamingoinstall、android-flamingoinstall.bat、flamingoinstall、flamingoinstall.bat文件中的
+mvn install:install-file -DgroupId=com.exadel.flamingo.android -DartifactId=parent -Dversion=2.2.0 -Dpackaging=pom -Dfile=flamingo-push-client-2.2.0.pom -DpomFile=client-components-android-2.2.0.pom
+改为了
+mvn install:install-file -DgroupId=com.exadel.flamingo.android -DartifactId=parent -Dversion=2.2.0 -Dpackaging=pom -Dfile=client-components-android-2.2.0.pom -DpomFile=client-components-android-2.2.0.pom
