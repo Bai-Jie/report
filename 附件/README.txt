@@ -5,4 +5,5 @@ attachment2：
     code style	符合Android Code Style的IntelliJ IDEA（包括Android Studio）Code Style配置文件
     library	可运行于Android的第三方Hessian库，exadel flamingo android hessian client
 attachment3：JUnit测试报告
-attachment4：手机客户端屏幕截图
+attachment4：软件截图
+attachment5：幻灯片演示文档
