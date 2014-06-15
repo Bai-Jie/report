@@ -6,4 +6,4 @@ attachment2：
     library	可运行于Android的第三方Hessian库，exadel flamingo android hessian client
 attachment3：JUnit测试报告
 attachment4：软件截图
-attachment5：幻灯片演示文档
+attachment5：演讲稿和幻灯片演示文档
